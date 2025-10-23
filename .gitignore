@@ -1,0 +1,13 @@
+# Terraform files to ignore
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# IDE / OS files
+*.swp
+*.swo
+*.idea/
+*.vscode/
+*.DS_Store
