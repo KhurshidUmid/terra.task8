@@ -82,9 +82,9 @@ resource "aws_launch_template" "main" {
     name = data.aws_iam_instance_profile.main.name
   }
 
-  network_interfaces {
-    delete_on_termination = true
-  }
+  #  network_interfaces {
+  #    delete_on_termination = true
+  #  }
 
   metadata_options {
     http_endpoint = "enabled"
